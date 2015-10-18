@@ -6,11 +6,32 @@ angular.module('Arnimarl.Monterailapp')
     return {
       restrict: 'E',
       scope: {
-        allQuestions: '='
       },
       replace: true,
       controller: function ($scope) {
-        console.log($scope.allQuestions);
+        $scope.allQuestions = [
+          {
+            description: 'Question 1',
+            createdBy: 'Jenny',
+            answers: [
+              {
+                description: 'Answer 1',
+                createdBy: 'Ben'
+              }
+            ]
+          },
+          {
+            description: 'Question 2',
+            createdBy: 'Oliver',
+            answers: [
+              {
+                description: 'Answer 1',
+                createdBy: 'Greg'
+              }
+            ]
+          }
+          ];
+
       },
       templateUrl: 'views/all-questions.html'
     };

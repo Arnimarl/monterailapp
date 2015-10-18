@@ -4,7 +4,7 @@ angular.module('Arnimarl.Monterailapp', ['ngAnimate', 'ngRoute'])
 
   .constant('version', 'v0.1.0')
 
-  .config(function($locationProvider, $routeProvider) {
+  .config(function ($locationProvider, $routeProvider) {
 
     $locationProvider.html5Mode(false);
 
@@ -12,14 +12,8 @@ angular.module('Arnimarl.Monterailapp', ['ngAnimate', 'ngRoute'])
       .when('/', {
         templateUrl: 'views/home.html'
       })
-      .when('/features', {
-        templateUrl: 'views/features.html'
-      })
-      .when('/contact', {
-        templateUrl: 'views/contact.html'
-      })
       .when('/questions', {
-        directive: 'allQuestions'
+        template: '<all-questions></all-questions>'
       })
       .otherwise({
         redirectTo: '/'
