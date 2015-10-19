@@ -1,5 +1,69 @@
 <div class="all-questions">
-  <div ng-repeat="question in allQuestions">
-    {{ question.description }}
+
+  <div class="navigator">
+    <div class="wrapper">
+      <div class="sort">
+        <span class="title">QUESTIONS</span>
+        <span class="pull-right options">
+          <span>My shelf <radio/></span>
+          <span>All questions <checkbox/></span>
+          <span>Sort by
+            <span ng-click="sort('recent')" ng-class="{'mark': sortBy === 'recent'}" class="recent-btn">recent</span>
+            or
+            <span ng-click="sort('hot')" ng-class="{'mark': sortBy === 'hot'}" class="hot-btn">hot</span>
+          </span>
+        </span>
+      </div>
+      <div class="row search">
+        <form class="">
+          <div class="col-xs-10 form-group"> 
+            <input class="form-control" ng-model="searchText" placeholder="Search in questions">
+          </div>
+          <div class="col-xs-2">
+            <button class="btn btn-default">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
   </div>
+
+  <div class="questions">
+    <div class="row question" ng-repeat="question in allQuestions | filter:searchText | orderBy:sortBy:true">
+      <div class="col-xs-12">
+        <div class="col-xs-10">
+          <div class="row question__header">
+            <img class="img-responsive img-round avatar" ng-src="{{question.createdBy.avatarSrc}}">
+            <div class="text">
+              {{ question.createdBy.name }} <span class="grey">is asking</span><br>
+              {{ question.description }}
+            </div>
+          </div>
+          <div class="row question__answers">
+            <div class="col-xs-4 col-md-2 leftside-frame">
+              <div class="status">ASKED</div>
+            </div>
+            <div class="col-xs-4 col-md-2" ng-if="getNumOfMoreActivities(question) >= 1">
+              <div class="more-activities">
+                <div class="number"> {{ getNumOfMoreActivities(question) }} </div>
+                <div class="text">more activities</div>
+              </div>
+            </div>
+            <div class="col-xs-4 col-md-2" ng-repeat="answer in getAnswers(question.answers)">
+              <div class="answer">
+                <img class="img-responsive img-round avatar" ng-src="{{answer.createdBy.avatarSrc}}">
+                <div class="status">COMMENTED</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-2 relatives">
+          <div>{{ question.relatedDisqussionsNumber }} related disqussions</div>
+          <div>{{ question.peersInvolvedNumber }} peers involved</div>
+          <div>{{ question.conversationsNumber }} conversations</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
+
