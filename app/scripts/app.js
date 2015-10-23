@@ -15,6 +15,10 @@ angular.module('Arnimarl.Monterailapp', ['ngAnimate', 'ngRoute'])
       .when('/questions', {
         template: '<all-questions></all-questions>'
       })
+      .when('/question', {
+        controller: 'QuestionCtrl',
+        templateUrl: 'views/single-question.html'
+      })
       .otherwise({
         redirectTo: '/'
       });

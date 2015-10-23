@@ -1,0 +1,73 @@
+/* line 5, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+.single-question .question-and-answers {
+  max-width: 992px;
+  margin: 0 auto;
+  background-color: white;
+  color: grey;
+  box-shadow: 1px 2px 2px;
+}
+@media (max-width: 992px) {
+  /* line 13, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+  .single-question .question-and-answers .col-xs-off {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  /* line 19, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+  .single-question .question-and-answers .col-md-off {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  /* line 25, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+  .single-question .question-and-answers .header {
+    top: 10px;
+    padding: 0 10px 10px 0;
+  }
+}
+/* line 31, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+.single-question .question-and-answers .avatar {
+  width: 48px;
+}
+/* line 35, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+.single-question .question-and-answers .upvotes {
+  top: 30px;
+  text-align: center;
+  color: black;
+}
+@media (max-width: 992px) {
+  /* line 40, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+  .single-question .question-and-answers .upvotes {
+    top: 0;
+  }
+}
+/* line 46, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+.single-question .question-and-answers .question .leftsidebar {
+  height: 150px;
+}
+@media (max-width: 992px) {
+  /* line 49, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+  .single-question .question-and-answers .question .leftsidebar {
+    height: 80px;
+    background-color: red;
+  }
+}
+/* line 55, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+.single-question .question-and-answers .question .avatar {
+  padding-top: 20px;
+}
+/* line 59, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+.single-question .question-and-answers .question .header {
+  top: 0;
+  padding: 20px 0 20px 0;
+}
+@media (max-width: 992px) {
+  /* line 63, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+  .single-question .question-and-answers .question .header {
+    height: 80px;
+  }
+}
+/* line 68, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+.single-question .question-and-answers .question .lightblue {
+  background-color: #d0efff;
+}
