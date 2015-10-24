@@ -8383,8 +8383,7 @@ button.close {
 }
 /* line 5, /home/arnimarl/workspace/monterailapp/app/styles/main.less */
 body {
-  font-family: Helvetica;
-  /*'Rotice'; should be */
+  font-family: 'Lato', sans-serif;
 }
 /* line 9, /home/arnimarl/workspace/monterailapp/app/styles/main.less */
 .grey-wrapper {
