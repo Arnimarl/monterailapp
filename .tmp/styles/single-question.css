@@ -29,63 +29,64 @@
 /* line 32, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .avatar {
   width: 48px;
+  height: 48px;
 }
-/* line 36, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+/* line 37, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .description {
   padding-bottom: 20px;
 }
-/* line 40, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+/* line 41, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .upvotes {
   top: 25px;
   color: black;
 }
 @media (max-width: 992px) {
-  /* line 44, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+  /* line 45, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
   .single-question .question-and-answers .upvotes {
     top: 0;
   }
 }
-/* line 50, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+/* line 51, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .question .leftsidebar {
   height: 200px;
 }
 @media (max-width: 992px) {
-  /* line 53, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+  /* line 54, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
   .single-question .question-and-answers .question .leftsidebar {
     height: 80px;
     background-color: red;
   }
 }
-/* line 59, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+/* line 60, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .question .avatar {
   padding-top: 12px;
 }
-/* line 63, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+/* line 64, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .question .header {
   padding: 12px 0 20px 15px;
 }
 @media (max-width: 992px) {
-  /* line 66, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+  /* line 67, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
   .single-question .question-and-answers .question .header {
     height: 80px;
     padding: 12px 0 10px 0;
   }
 }
-/* line 72, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+/* line 73, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .question .lightblue {
   background-color: #d0efff;
 }
-/* line 76, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+/* line 77, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .question .description {
   padding-top: 10px;
 }
 @media (max-width: 992px) {
-  /* line 79, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+  /* line 80, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
   .single-question .question-and-answers .question .description {
     padding-top: 0;
   }
 }
-/* line 84, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+/* line 85, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .question .follow {
   padding-right: 90px;
   color: #3b7dbb;
@@ -93,13 +94,13 @@
   cursor: pointer;
 }
 @media (min-width: 992px) {
-  /* line 90, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+  /* line 91, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
   .single-question .question-and-answers .question .follow {
     margin-top: -10px;
   }
 }
 @media (max-width: 992px) {
-  /* line 98, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+  /* line 99, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
   .single-question .question-and-answers .answers .header {
     padding: 0 10px 0 0;
   }

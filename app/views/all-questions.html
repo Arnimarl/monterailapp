@@ -33,7 +33,7 @@
         <div class="col-xs-12 col-md-10">
           <div class="row question__header">
             <div class="col-xs-4 col-md-2">
-              <img class="img-responsive img-round avatar" ng-src="{{question.createdBy.avatarSrc}}">
+              <img class="img-responsive img-circle avatar" ng-src="{{question.createdBy.avatarSrc}}">
             </div>
             <div class="col-xs-8 col-md-10 text">
               {{ question.createdBy.name }} <span class="grey">is asking</span><br>
@@ -52,7 +52,7 @@
             </div>
             <div class="col-xs-4 col-md-2" ng-repeat="answer in getAnswers(question.answers)">
               <div class="answer">
-                <img class="img-responsive img-round avatar" ng-src="{{answer.createdBy.avatarSrc}}">
+                <img class="img-responsive img-circle avatar" ng-src="{{answer.createdBy.avatarSrc}}">
                 <div class="status">COMMENTED</div>
               </div>
             </div>

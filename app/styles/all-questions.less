@@ -59,6 +59,7 @@
 
       .avatar {
         width: 48px;
+        height: 48px;
       }
 
       .question__header {
@@ -69,6 +70,7 @@
         .avatar {
           margin: 10px 35px 0 25px;
           width: 62px;
+          height: 62px;
         }
         @media (max-width: 768px) {
           .avatar {
@@ -93,11 +95,15 @@
           position: relative;
           width: 85%;
           top: 82px;
-          left: 9px;
+          left: 7.5%;
           padding-top: 3px;
           border-top: 1px solid grey;
           text-align: center;
           opacity: 0.5;
+
+          @media (max-width: 768px) {
+            font-size: 11px;
+          }
         }
 
         .leftside-frame {
@@ -105,9 +111,9 @@
           background-color: @bg-color-q;
 
           .status {
+            width: 100%;
             top: 186px;
-            left: -6px;
-            width: 122px;
+            left: 0;
           }
         }
 
@@ -140,7 +146,7 @@
           .text {
             position: relative;
             top: 110px;
-            left: 11px;
+            text-align: center;
           }
         }
 

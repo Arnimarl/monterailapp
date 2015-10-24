@@ -6,5 +6,5 @@ angular.module('Arnimarl.Monterailapp')
 
     console.log('QuestionCtrl fired!');
 
-    $scope.img = '/imgs/avatar.jpg';
+    $scope.img = '/imgs/drhouse.jpg';
   });

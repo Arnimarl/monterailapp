@@ -14,63 +14,63 @@ angular.module('Arnimarl.Monterailapp')
             description: 'Will insulin make my patient gain weight?',
             createdBy: {
               name: 'Jenny',
-              avatarSrc: 'imgs/avatar.jpg'
+              avatarSrc: 'imgs/drhouse.jpg'
             },
             answers: [
               {
                 description: 'Answer 1',
                 createdBy: {
                   name: 'Greg',
-                  avatarSrc: 'imgs/avatar.jpg'
+                  avatarSrc: 'imgs/drhouse.jpg'
                 }
               },
               {
                 description: 'Answer 1',
                 createdBy: {
                   name: 'Greg',
-                  avatarSrc: 'imgs/avatar.jpg'
+                  avatarSrc: 'imgs/drhouse.jpg'
                 }
               },
               {
                 description: 'Answer 1',
                 createdBy: {
                   name: 'Greg',
-                  avatarSrc: 'imgs/avatar.jpg'
+                  avatarSrc: 'imgs/drhouse.jpg'
                 }
               },
               {
                 description: 'Answer 1',
                 createdBy: {
                   name: 'Greg',
-                  avatarSrc: 'imgs/avatar.jpg'
+                  avatarSrc: 'imgs/drhouse.jpg'
                 }
               },
               {
                 description: 'Answer 1',
                 createdBy: {
                   name: 'Greg',
-                  avatarSrc: 'imgs/avatar.jpg'
+                  avatarSrc: 'imgs/drhouse.jpg'
                 }
               },
               {
                 description: 'Answer 1',
                 createdBy: {
                   name: 'Greg',
-                  avatarSrc: 'imgs/avatar.jpg'
+                  avatarSrc: 'imgs/drhouse.jpg'
                 }
               },
               {
                 description: 'Answer 1',
                 createdBy: {
                   name: 'Greg',
-                  avatarSrc: 'imgs/avatar.jpg'
+                  avatarSrc: 'imgs/drhouse.jpg'
                 }
               },
               {
                 description: 'Answer 1',
                 createdBy: {
                   name: 'Greg',
-                  avatarSrc: 'imgs/avatar.jpg'
+                  avatarSrc: 'imgs/drhouse.jpg'
                 }
               }
             ],
@@ -84,28 +84,28 @@ angular.module('Arnimarl.Monterailapp')
             description: 'Vegan diet to stop diabetes progress',
             createdBy: {
               name: 'Oliver',
-              avatarSrc: 'imgs/avatar.jpg'
+              avatarSrc: 'imgs/drhouse.jpg'
             },
             answers: [
               {
                 description: 'Answer 1',
                 createdBy: {
                   name: 'Ben',
-                  avatarSrc: 'imgs/avatar.jpg'
+                  avatarSrc: 'imgs/drhouse.jpg'
                 }
               },
               {
                 description: 'Answer 1',
                 createdBy: {
                   name: 'Ben',
-                  avatarSrc: 'imgs/avatar.jpg'
+                  avatarSrc: 'imgs/drhouse.jpg'
                 }
               },
               {
                 description: 'Answer 1',
                 createdBy: {
                   name: 'Ben',
-                  avatarSrc: 'imgs/avatar.jpg'
+                  avatarSrc: 'imgs/drhouse.jpg'
                 }
               }
             ],
