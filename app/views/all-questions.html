@@ -16,10 +16,10 @@
       </div>
       <div class="row search">
         <form class="">
-          <div class="col-xs-10 form-group"> 
+          <div class="col-xs-12 col-md-10 form-group"> 
             <input class="form-control" ng-model="searchText" placeholder="Search in questions">
           </div>
-          <div class="col-xs-2">
+          <div class="col-xs-off col-md-2">
             <button class="btn btn-default">Search</button>
           </div>
         </form>
@@ -30,10 +30,12 @@
   <div class="questions">
     <div class="row question" ng-repeat="question in allQuestions | filter:searchText | orderBy:sortBy:true">
       <div class="col-xs-12">
-        <div class="col-xs-10">
+        <div class="col-xs-12 col-md-10">
           <div class="row question__header">
-            <img class="img-responsive img-round avatar" ng-src="{{question.createdBy.avatarSrc}}">
-            <div class="text">
+            <div class="col-xs-4 col-md-2">
+              <img class="img-responsive img-round avatar" ng-src="{{question.createdBy.avatarSrc}}">
+            </div>
+            <div class="col-xs-8 col-md-10 text">
               {{ question.createdBy.name }} <span class="grey">is asking</span><br>
               {{ question.description }}
             </div>
@@ -56,7 +58,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xs-2 relatives">
+        <div class="col-xs-2 col-xs-off relatives">
           <div>{{ question.relatedDisqussionsNumber }} related disqussions</div>
           <div>{{ question.peersInvolvedNumber }} peers involved</div>
           <div>{{ question.conversationsNumber }} conversations</div>

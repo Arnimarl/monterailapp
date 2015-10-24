@@ -9,22 +9,23 @@
     color: grey;
     box-shadow: 1px 2px 2px;
 
-    .col-xs-off {
-      @media (max-width: 992px) {
-        display: none;
-      }
-    }
-
-    .col-md-off {
-      @media (min-width: 992px) {
-        display: none;
-      }
-    }
-
     .header {
       @media (max-width: 992px) {
-        top: 10px;
         padding: 0 10px 10px 0;
+      }
+
+      .name {
+        font-size: 20px;
+        color: rgb(59, 125, 187);
+        font-weight: bold;
+      }
+
+      .question {
+        color: rgb(59, 125, 187);
+      }
+
+      .date {
+        color: black;
       }
     }
 
@@ -32,9 +33,12 @@
       width: 48px;
     }
 
+    .description {
+      padding-bottom: 20px;
+    }
+
     .upvotes {
-      top: 30px;
-      text-align: center;
+      top: 25px;
       color: black;
 
       @media (max-width: 992px) {
@@ -44,7 +48,7 @@
 
     .question {
       .leftsidebar {
-        height: 150px;
+        height: 200px;
 
         @media (max-width: 992px) {
           height: 80px;
@@ -53,25 +57,48 @@
       }
 
       .avatar {
-        padding-top: 20px;
+        padding-top: 12px;
       }
 
       .header {
-        top: 0;
-        padding: 20px 0 20px 0;
+        padding: 12px 0 20px 15px;
 
         @media (max-width: 992px) {
           height: 80px;
+          padding: 12px 0 10px 0;
         } 
       }
 
       .lightblue {
         background-color: @bg-color-q;
       }
+
+      .description {
+        padding-top: 10px;
+
+        @media (max-width: 992px) {
+          padding-top: 0;
+        }  
+      }
+
+      .follow {
+        padding-right: 90px;
+        color: rgb(59, 125, 187); 
+        font-weight: bold;
+        cursor: pointer;
+
+        @media (min-width: 992px) {
+          margin-top: -10px;
+        } 
+      }
     }
 
     .answers {
-
+      .header {
+        @media (max-width: 992px) {
+          padding: 0 10px 0 0;
+        }
+      }
     }
   }
 

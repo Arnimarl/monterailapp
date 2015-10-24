@@ -66,21 +66,21 @@
         background-color: @bg-color-q;
         color: rgb(59, 125, 187);
 
-        .avatar, .text {
-          display: inline-block;
-        }
         .avatar {
-          margin: 10px 35px 0 40px;
+          margin: 10px 35px 0 25px;
           width: 62px;
         }
         @media (max-width: 768px) {
           .avatar {
-            margin: 10px 35px 0 35px;
+            margin: 10px 35px 0 15px;
           }
         }
         .text {
           position: relative;
           top: 10px;
+          @media (max-width: 768px) {
+            padding-left: 0;
+          }
 
           .grey {
             color: grey;
@@ -98,12 +98,6 @@
           border-top: 1px solid grey;
           text-align: center;
           opacity: 0.5;
-        }
-
-        @media (max-width: 992px) {
-          .status {
-            display: none;
-          }
         }
 
         .leftside-frame {
