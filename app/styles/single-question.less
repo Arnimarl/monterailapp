@@ -10,18 +10,26 @@
     box-shadow: 1px 2px 2px;
 
     .header {
+      color: rgb(59, 125, 187);
+
       @media (max-width: 992px) {
         padding: 0 10px 10px 0;
       }
 
       .name {
-        font-size: 20px;
-        color: rgb(59, 125, 187);
+        font-size: 15px;
         font-weight: bold;
       }
 
+      .grey {
+        color: grey;
+      }
+
       .question {
-        color: rgb(59, 125, 187);
+        font-size: 17px;
+        font-weight: bold;
+        line-height: 0;
+        font-style: italic;
       }
 
       .date {
@@ -45,6 +53,19 @@
       @media (max-width: 992px) {
         top: 0;
       }
+
+      .up-btn {
+        position: relative;
+        top: -15px;
+        left: 15px;
+        cursor: pointer;
+      }
+
+      .down-btn {
+        position: relative;
+        top: 20px;
+        cursor: pointer;
+      }
     }
 
     .question {
@@ -58,7 +79,7 @@
       }
 
       .avatar {
-        padding-top: 12px;
+        margin-top: 12px;
       }
 
       .header {

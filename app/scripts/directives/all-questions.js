@@ -9,109 +9,125 @@ angular.module('Arnimarl.Monterailapp')
       },
       replace: true,
       controller: function ($scope) {
+        // wez z single-question.js!!!
         $scope.allQuestions = [
           {
-            description: 'Will insulin make my patient gain weight?',
+            title: 'Will insulin make my patient gain weight?',
+            description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
             createdBy: {
               name: 'Jenny',
               avatarSrc: 'imgs/drhouse.jpg'
             },
             answers: [
               {
-                description: 'Answer 1',
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
                 createdBy: {
                   name: 'Greg',
                   avatarSrc: 'imgs/drhouse.jpg'
-                }
+                },
+                votes: 5
               },
               {
-                description: 'Answer 1',
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
                 createdBy: {
                   name: 'Greg',
                   avatarSrc: 'imgs/drhouse.jpg'
-                }
+                },
+                votes: 5
               },
               {
-                description: 'Answer 1',
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
                 createdBy: {
                   name: 'Greg',
                   avatarSrc: 'imgs/drhouse.jpg'
-                }
+                },
+                votes: 4
               },
               {
-                description: 'Answer 1',
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
                 createdBy: {
                   name: 'Greg',
                   avatarSrc: 'imgs/drhouse.jpg'
-                }
+                },
+                votes: 4
               },
               {
-                description: 'Answer 1',
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
                 createdBy: {
                   name: 'Greg',
                   avatarSrc: 'imgs/drhouse.jpg'
-                }
+                },
+                votes: 4
               },
               {
-                description: 'Answer 1',
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
                 createdBy: {
                   name: 'Greg',
                   avatarSrc: 'imgs/drhouse.jpg'
-                }
+                },
+                votes: 4
               },
               {
-                description: 'Answer 1',
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
                 createdBy: {
                   name: 'Greg',
                   avatarSrc: 'imgs/drhouse.jpg'
-                }
+                },
+                votes: 4
               },
               {
-                description: 'Answer 1',
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
                 createdBy: {
                   name: 'Greg',
                   avatarSrc: 'imgs/drhouse.jpg'
-                }
+                },
+                votes: 4
               }
             ],
             relatedDisqussionsNumber: 2,
             peersInvolvedNumber: 7,
             conversationsNumber: 4,
+            votes: 19,
             hot: true,
             recent: false
           },
           {
-            description: 'Vegan diet to stop diabetes progress',
+            title: 'Vegan diet to stop diabetes progress',
+            description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
             createdBy: {
               name: 'Oliver',
               avatarSrc: 'imgs/drhouse.jpg'
             },
             answers: [
               {
-                description: 'Answer 1',
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
                 createdBy: {
                   name: 'Ben',
                   avatarSrc: 'imgs/drhouse.jpg'
-                }
+                },
+                votes: 3
               },
               {
-                description: 'Answer 1',
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
                 createdBy: {
                   name: 'Ben',
                   avatarSrc: 'imgs/drhouse.jpg'
-                }
+                },
+                votes: 3
               },
               {
-                description: 'Answer 1',
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
                 createdBy: {
                   name: 'Ben',
                   avatarSrc: 'imgs/drhouse.jpg'
-                }
+                },
+                votes: 3
               }
             ],
             relatedDisqussionsNumber: 5,
             peersInvolvedNumber: 3,
             conversationsNumber: 3,
+            votes: 19,
             hot: false,
             recent: true
           }

@@ -36,8 +36,10 @@
               <img class="img-responsive img-circle avatar" ng-src="{{question.createdBy.avatarSrc}}">
             </div>
             <div class="col-xs-8 col-md-10 text">
-              {{ question.createdBy.name }} <span class="grey">is asking</span><br>
-              {{ question.description }}
+              <span class="name">{{ question.createdBy.name }}</span>
+              <span class="grey">is asking</span>
+              <br>
+              <span class="title">{{ question.title }}</span>
             </div>
           </div>
           <div class="row question__answers">
