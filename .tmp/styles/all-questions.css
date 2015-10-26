@@ -180,3 +180,10 @@
   position: inherit;
   margin-top: 60px;
 }
+/* line 181, /home/arnimarl/workspace/monterailapp/app/styles/all-questions.less */
+.all-questions .questions .load-more {
+  padding: 40px 0 40px 30px;
+  font-weight: bold;
+  color: red;
+  cursor: pointer;
+}
