@@ -12,81 +12,80 @@ angular.module('Arnimarl.Monterailapp')
         // wez z single-question.js!!!
         $scope.allQuestions = [
           {
-            title: 'Will insulin make my patient gain weight?',
+            title: 'Vegan diet to stop diabetes progress',
             description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
             createdBy: {
-              name: 'Jenny',
+              name: 'Oliver',
               avatarSrc: 'imgs/drhouse.jpg'
             },
             answers: [
               {
                 description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
                 createdBy: {
-                  name: 'Greg',
+                  name: 'Ben',
                   avatarSrc: 'imgs/drhouse.jpg'
                 },
-                votes: 5
+                votes: 12
+              },
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Ann',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 1
+              },
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Gregg',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 3
               },
               {
                 description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
                 createdBy: {
-                  name: 'Greg',
+                  name: 'Alice',
                   avatarSrc: 'imgs/drhouse.jpg'
                 },
-                votes: 5
-              },
-              {
-                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
-                createdBy: {
-                  name: 'Greg',
-                  avatarSrc: 'imgs/drhouse.jpg'
-                },
-                votes: 4
+                votes: 3
               },
               {
                 description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
                 createdBy: {
-                  name: 'Greg',
+                  name: 'Alex',
                   avatarSrc: 'imgs/drhouse.jpg'
                 },
-                votes: 4
+                votes: 22
               },
               {
                 description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
                 createdBy: {
-                  name: 'Greg',
+                  name: 'Xavier',
                   avatarSrc: 'imgs/drhouse.jpg'
                 },
-                votes: 4
-              },
-              {
-                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
-                createdBy: {
-                  name: 'Greg',
-                  avatarSrc: 'imgs/drhouse.jpg'
-                },
-                votes: 4
-              },
-              {
-                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
-                createdBy: {
-                  name: 'Greg',
-                  avatarSrc: 'imgs/drhouse.jpg'
-                },
-                votes: 4
+                votes: 11
               },
               {
                 description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
                 createdBy: {
-                  name: 'Greg',
+                  name: 'Albert',
                   avatarSrc: 'imgs/drhouse.jpg'
                 },
-                votes: 4
+                votes: 2
               }
             ],
-            relatedDisqussionsNumber: 2,
-            peersInvolvedNumber: 7,
-            conversationsNumber: 4,
+            relatedDisqussionsNumber: 5,
+            peersInvolvedNumber: 3,
+            conversationsNumber: 3,
             votes: 19,
             hot: true,
             recent: false
@@ -100,25 +99,71 @@ angular.module('Arnimarl.Monterailapp')
             },
             answers: [
               {
-                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
                 createdBy: {
                   name: 'Ben',
                   avatarSrc: 'imgs/drhouse.jpg'
                 },
-                votes: 3
+                votes: 12
               },
               {
-                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Ann',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 1
+              },
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Gregg',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 3
+              }
+            ],
+            relatedDisqussionsNumber: 5,
+            peersInvolvedNumber: 3,
+            conversationsNumber: 3,
+            votes: 19,
+            hot: false,
+            recent: false
+          },
+          {
+            title: 'Vegan diet to stop diabetes progress',
+            description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+            createdBy: {
+              name: 'Oliver',
+              avatarSrc: 'imgs/drhouse.jpg'
+            },
+            answers: [
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
                 createdBy: {
                   name: 'Ben',
                   avatarSrc: 'imgs/drhouse.jpg'
                 },
-                votes: 3
+                votes: 12
               },
               {
-                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
                 createdBy: {
-                  name: 'Ben',
+                  name: 'Ann',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 1
+              },
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Gregg',
                   avatarSrc: 'imgs/drhouse.jpg'
                 },
                 votes: 3
@@ -130,10 +175,375 @@ angular.module('Arnimarl.Monterailapp')
             votes: 19,
             hot: false,
             recent: true
+          },
+          {
+            title: 'Vegan diet to stop diabetes progress',
+            description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+            createdBy: {
+              name: 'Oliver',
+              avatarSrc: 'imgs/drhouse.jpg'
+            },
+            answers: [
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Ben',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 12
+              },
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Ann',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 1
+              },
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Gregg',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 3
+              }
+            ],
+            relatedDisqussionsNumber: 5,
+            peersInvolvedNumber: 3,
+            conversationsNumber: 3,
+            votes: 19,
+            hot: false,
+            recent: false
+          },
+          {
+            title: 'Vegan diet to stop diabetes progress',
+            description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+            createdBy: {
+              name: 'Oliver',
+              avatarSrc: 'imgs/drhouse.jpg'
+            },
+            answers: [
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Ben',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 12
+              },
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Ann',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 1
+              },
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Gregg',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 3
+              }
+            ],
+            relatedDisqussionsNumber: 5,
+            peersInvolvedNumber: 3,
+            conversationsNumber: 3,
+            votes: 19,
+            hot: true,
+            recent: true
+          },
+          {
+            title: 'Vegan diet to stop diabetes progress',
+            description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+            createdBy: {
+              name: 'Oliver',
+              avatarSrc: 'imgs/drhouse.jpg'
+            },
+            answers: [
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Ben',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 12
+              },
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Ann',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 1
+              },
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Gregg',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 3
+              }
+            ],
+            relatedDisqussionsNumber: 5,
+            peersInvolvedNumber: 3,
+            conversationsNumber: 3,
+            votes: 19,
+            hot: true,
+            recent: false
+          },
+          {
+            title: 'Vegan diet to stop diabetes progress',
+            description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+            createdBy: {
+              name: 'Oliver',
+              avatarSrc: 'imgs/drhouse.jpg'
+            },
+            answers: [
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Ben',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 12
+              },
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Ann',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 1
+              },
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Gregg',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 3
+              }
+            ],
+            relatedDisqussionsNumber: 5,
+            peersInvolvedNumber: 3,
+            conversationsNumber: 3,
+            votes: 19,
+            hot: false,
+            recent: true
+          },
+          {
+            title: 'Vegan diet to stop diabetes progress',
+            description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+            createdBy: {
+              name: 'Oliver',
+              avatarSrc: 'imgs/drhouse.jpg'
+            },
+            answers: [
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Ben',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 12
+              },
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Ann',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 1
+              },
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Gregg',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 3
+              }
+            ],
+            relatedDisqussionsNumber: 5,
+            peersInvolvedNumber: 3,
+            conversationsNumber: 3,
+            votes: 19,
+            hot: true,
+            recent: false
+          },
+          {
+            title: 'Vegan diet to stop diabetes progress',
+            description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+            createdBy: {
+              name: 'Oliver',
+              avatarSrc: 'imgs/drhouse.jpg'
+            },
+            answers: [
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Ben',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 12
+              },
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Ann',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 1
+              },
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Gregg',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 3
+              }
+            ],
+            relatedDisqussionsNumber: 5,
+            peersInvolvedNumber: 3,
+            conversationsNumber: 3,
+            votes: 19,
+            hot: false,
+            recent: true
+          },
+          {
+            title: 'Vegan diet to stop diabetes progress',
+            description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+            createdBy: {
+              name: 'Oliver',
+              avatarSrc: 'imgs/drhouse.jpg'
+            },
+            answers: [
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Ben',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 12
+              },
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Ann',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 1
+              },
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Gregg',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 3
+              }
+            ],
+            relatedDisqussionsNumber: 5,
+            peersInvolvedNumber: 3,
+            conversationsNumber: 3,
+            votes: 19,
+            hot: true,
+            recent: true
+          },
+          {
+            title: 'Vegan diet to stop diabetes progress',
+            description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+            createdBy: {
+              name: 'Oliver',
+              avatarSrc: 'imgs/drhouse.jpg'
+            },
+            answers: [
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Ben',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 12
+              },
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Ann',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 1
+              },
+              {
+                description: 'Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.',
+                date: '25.10.2015',
+                createdBy: {
+                  name: 'Gregg',
+                  avatarSrc: 'imgs/drhouse.jpg'
+                },
+                votes: 3
+              }
+            ],
+            relatedDisqussionsNumber: 5,
+            peersInvolvedNumber: 3,
+            conversationsNumber: 3,
+            votes: 19,
+            hot: false,
+            recent: false
           }
         ];
 
+        $scope.numOfQuestionsToDisp = 3;
         $scope.sortBy = 'hot';
+
+        $scope.getQuestionsToDisp = function (numOfQuestionsToDisp, allQuestions) {
+          var questionsToDisp = [];
+          for (var i = 0; i < numOfQuestionsToDisp; i++) {
+            questionsToDisp.push(allQuestions[i]);
+            if (i === allQuestions.length - 1) {
+              console.log(numOfQuestionsToDisp);
+              console.log(questionsToDisp);
+              return questionsToDisp;
+            }
+          }
+          console.log(numOfQuestionsToDisp);
+          console.log(questionsToDisp);
+          return questionsToDisp;
+        };
+
+        $scope.incrementNumOfQuestionsToDisp = function () {
+          $scope.numOfQuestionsToDisp = $scope.numOfQuestionsToDisp + 3;
+          console.log($scope.numOfQuestionsToDisp);
+        };
 
         $scope.getNumOfMoreActivities = function (question) {
           var maxInRow = 5;
