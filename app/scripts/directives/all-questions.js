@@ -8,7 +8,7 @@ angular.module('Arnimarl.Monterailapp')
       scope: {
       },
       replace: true,
-      controller: function ($scope) {
+      controller: function ($scope, $location) {
         // wez z single-question.js!!!
         $scope.allQuestions = [
           {
@@ -583,6 +583,11 @@ angular.module('Arnimarl.Monterailapp')
         $scope.displayUserModal = function (user) {
           $scope.user = user;
           $scope.userModalOn = true;
+        };
+
+        $scope.goToQuestion = function (question) {
+          localStorage.setItem('question', JSON.stringify(question));
+          $location.path('question');
         };
       },
       templateUrl: 'views/all-questions.html'

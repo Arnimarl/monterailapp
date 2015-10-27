@@ -39,7 +39,7 @@
               <span class="name" ng-click="displayUserModal(question.createdBy)">{{ question.createdBy.name }}</span>
               <span class="grey">IS ASKING</span>
               <br>
-              <span class="title">{{ question.title }}</span>
+              <span class="title" ng-click="goToQuestion(question)">{{ question.title }}</span>
             </div>
           </div>
           <div class="row question__answers">
