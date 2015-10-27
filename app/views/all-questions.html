@@ -33,10 +33,10 @@
         <div class="col-xs-12 col-md-10">
           <div class="row question__header">
             <div class="col-xs-4 col-md-2">
-              <img class="img-responsive img-circle avatar" ng-src="{{question.createdBy.avatarSrc}}">
+              <img class="img-responsive img-circle avatar" ng-src="{{question.createdBy.avatarSrc}}" ng-click="displayUserModal(question.createdBy)">
             </div>
             <div class="col-xs-8 col-md-10 text">
-              <span class="name">{{ question.createdBy.name }}</span>
+              <span class="name" ng-click="displayUserModal(question.createdBy)">{{ question.createdBy.name }}</span>
               <span class="grey">IS ASKING</span>
               <br>
               <span class="title">{{ question.title }}</span>
@@ -61,15 +61,17 @@
           </div>
         </div>
         <div class="col-xs-2 col-xs-off relatives">
-          <div>{{ question.relatedDisqussionsNumber }} related disqussions</div>
-          <div>{{ question.peersInvolvedNumber }} peers involved</div>
-          <div>{{ question.conversationsNumber }} conversations</div>
+          <div class="italic"><span class="fw-600">{{ question.relatedDisqussionsNumber }}</span> related disqussions</div>
+          <div class="italic"><span class="fw-600">{{ question.peersInvolvedNumber }}</span> peers involved</div>
+          <div class="italic"><span class="fw-600">{{ question.conversationsNumber }}</span> conversations</div>
         </div>
       </div>
     </div>
 
     <div class="load-more" ng-if="numOfQuestionsToDisp < allQuestions.length" ng-click="incrementNumOfQuestionsToDisp()">load more questions</div>
   </div>
+
+  <user-modal user-modal-on="userModalOn" user="user"></user-modal>
 
 </div>
 

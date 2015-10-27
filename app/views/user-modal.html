@@ -1,0 +1,61 @@
+<div ng-if="userModalOn" class="user-modal">
+  
+  <div class="fader"> 
+
+    <div class="u-modal">
+      <div class="close" ng-click="$parent.closeModal()">x</div>
+      <div class="content">
+        <img class="img-circle avatar big" ng-src="{{user.avatarSrc}}">
+        <p class="user-name">{{ user.name }}</p>
+        <p class="activity line-bottom">
+          <span class="grey">MEMBER FOR</span><span class="italic"> 5 months</span>
+          <span class="grey">LAST SEEN</span><span class="italic"> Saturday afternoon</span>
+          <span class="grey">ACTIVITY LEVEL</span><span class="italic"> ***</span>
+        </p>
+        <h1 class="title">How it all started</h1>
+        <p class="grey">THAT'S THERE WE HAVE BEEN THESE 5 MONTHS AGO</p>
+        <div class="have-been">
+          <p class="num">
+            <span class="fs-big fw-900 italic">46</span>
+            <span class="fs-big fw-900 italic">29</span>
+            <span class="fs-big fw-900 italic">19</span>
+            <span class="fs-big fw-900 italic">10</span>
+          </p>
+          <p class="text">
+            <span class="fw-600 italic">peers</span>
+            <span class="fw-600 italic">disscussions</span>
+            <span class="fw-600 italic">findings</span>
+            <span class="fw-600 italic">questions</span>
+          </p>
+        </div>
+        <p class="grey">WHO JOINED THIS PLATFORM THE SAME PERIOD</p>
+        <p class="same-period">
+          <img class="img-circle avatar small" ng-src="{{$parent.mockupImg1}}">
+          <img class="img-circle avatar small" ng-src="{{$parent.mockupImg1}}">
+          <img class="img-circle avatar small" ng-src="{{$parent.mockupImg1}}">
+        </p>
+        <p class="same-period">
+          <span class="user-name small">Sam W.</span>
+          <span class="user-name small">Ben Den</span>
+          <span class="user-name small">Joseph</span>
+        </p>
+        <p class="grey">THE HOTTEST DISQUSSION THESE DAYS</p>
+        <p>
+          <img class="img-circle avatar small" ng-src="{{$parent.mockupImg1}}">
+        </p>
+        <p>
+          <span class="user-name small">Joseph</span><span class="grey"> FOUND THE GUARDIAN ARTICLE</span>
+          <h4 class="italic blue fw-600 hot-article">Vegan diet to stop diabetes progress</h4>
+        </p>
+        <p class="relatives">
+          <span class="italic"><span class="fw-600 num">6</span> peers involved</span>
+          <span class="italic"><span class="fw-600 num">3</span> related disqussions</span>
+          <span class="italic"><span class="fw-600 num">3</span> conversations</span>
+          <span class="italic"><span class="fw-600 num">19</span> upvotes</span>
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</div>

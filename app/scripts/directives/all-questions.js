@@ -579,6 +579,11 @@ angular.module('Arnimarl.Monterailapp')
           }
           $scope.sortBy = byWhat;
         };
+
+        $scope.displayUserModal = function (user) {
+          $scope.user = user;
+          $scope.userModalOn = true;
+        };
       },
       templateUrl: 'views/all-questions.html'
     };

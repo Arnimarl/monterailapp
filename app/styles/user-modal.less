@@ -1,0 +1,108 @@
+.user-modal {
+
+  .fader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+
+    .u-modal {
+      position: relative;
+      max-width: 900px;
+      margin: 0 auto;
+      margin-top: 15px;
+      background-color: white;
+
+      .close {
+        position: absolute;
+        top: 5px;
+        right: 12px;
+        cursor: pointer;
+      }
+
+      .content {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 40px 0 40px 0;
+        text-align: center;
+
+        .avatar {
+          &.big {
+            width: 70px;
+            height: 70px;    
+          }
+          &.small {
+            width: 50px;
+            height: 50px;    
+          }
+        }
+
+        .user-name {
+          font-size: 20px;
+          font-weight: bold;
+          color: rgb(59, 125, 187);
+
+          &.small {
+            font-size: 14px;
+          }
+        }
+
+        .activity {
+          &.line-bottom {
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.63);
+          }
+
+          .italic {
+            margin: 0 10px 0 1px;
+          }
+        }
+
+        .title {
+          margin-bottom: 30px;
+          font-weight: 700;
+          font-style: italic; 
+        }
+
+        .have-been {
+          margin-bottom: 28px;
+
+          .num {
+            span {
+              margin: 0 20px 0 14px;
+            }
+          }
+
+          .text {
+            span {
+              margin: 0 4px 0 4px;
+            }
+          }
+        }
+
+        .same-period {
+          margin-bottom: 28px;
+
+          img, span {
+            margin: 0 11px 0 11px;
+          }
+        }
+
+        .relatives {
+          margin-top: 20px;
+
+          span {
+            margin-right: 18px;
+          }
+
+          .num {
+            margin-right: 6px;
+          }
+        }
+      }
+    }
+  }
+
+}
