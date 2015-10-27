@@ -106,4 +106,9 @@ angular.module('Arnimarl.Monterailapp')
       obj.votedDown = true;
     };
 
+    $scope.displayUserModal = function (user) {
+      $scope.user = user;
+      $scope.userModalOn = true;
+    };
+
   });

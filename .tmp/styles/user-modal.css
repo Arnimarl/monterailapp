@@ -11,89 +11,103 @@
 .user-modal .fader .u-modal {
   position: relative;
   max-width: 900px;
+  max-height: 100vh;
+  overflow: auto;
   margin: 0 auto;
   margin-top: 15px;
   background-color: white;
 }
-/* line 18, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
+@media (max-width: 768px) {
+  /* line 20, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
+  .user-modal .fader .u-modal {
+    margin-top: 0;
+  }
+}
+/* line 24, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
 .user-modal .fader .u-modal .close {
   position: absolute;
   top: 5px;
   right: 12px;
   cursor: pointer;
 }
-/* line 25, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
+/* line 31, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
 .user-modal .fader .u-modal .content {
   max-width: 800px;
   margin: 0 auto;
   padding: 40px 0 40px 0;
   text-align: center;
 }
-/* line 32, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
+@media (max-width: 768px) {
+  /* line 37, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
+  .user-modal .fader .u-modal .content {
+    padding: 25px 10px 25px 10px;
+  }
+}
+/* line 42, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
 .user-modal .fader .u-modal .content .avatar.big {
   width: 70px;
   height: 70px;
 }
-/* line 36, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
+/* line 46, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
 .user-modal .fader .u-modal .content .avatar.small {
   width: 50px;
   height: 50px;
 }
-/* line 42, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
+/* line 52, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
 .user-modal .fader .u-modal .content .user-name {
   font-size: 20px;
   font-weight: bold;
   color: #3b7dbb;
 }
-/* line 47, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
+/* line 57, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
 .user-modal .fader .u-modal .content .user-name.small {
   font-size: 14px;
 }
-/* line 53, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
+/* line 63, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
 .user-modal .fader .u-modal .content .activity.line-bottom {
   padding-bottom: 20px;
   border-bottom: 1px solid rgba(128, 128, 128, 0.63);
 }
-/* line 58, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
+/* line 68, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
 .user-modal .fader .u-modal .content .activity .italic {
   margin: 0 10px 0 1px;
 }
-/* line 63, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
+/* line 73, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
 .user-modal .fader .u-modal .content .title {
   margin-bottom: 30px;
   font-weight: 700;
   font-style: italic;
 }
-/* line 69, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
+/* line 79, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
 .user-modal .fader .u-modal .content .have-been {
   margin-bottom: 28px;
 }
-/* line 73, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
+/* line 83, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
 .user-modal .fader .u-modal .content .have-been .num span {
   margin: 0 20px 0 14px;
 }
-/* line 79, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
+/* line 89, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
 .user-modal .fader .u-modal .content .have-been .text span {
   margin: 0 4px 0 4px;
 }
-/* line 85, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
-.user-modal .fader .u-modal .content .same-period {
+/* line 96, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
+.user-modal .fader .u-modal .content .same-period.marg-btm {
   margin-bottom: 28px;
 }
-/* line 88, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
+/* line 100, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
 .user-modal .fader .u-modal .content .same-period img,
 .user-modal .fader .u-modal .content .same-period span {
   margin: 0 11px 0 11px;
 }
-/* line 93, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
+/* line 105, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
 .user-modal .fader .u-modal .content .relatives {
   margin-top: 20px;
 }
-/* line 96, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
+/* line 108, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
 .user-modal .fader .u-modal .content .relatives span {
   margin-right: 18px;
 }
-/* line 100, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
+/* line 112, /home/arnimarl/workspace/monterailapp/app/styles/user-modal.less */
 .user-modal .fader .u-modal .content .relatives .num {
   margin-right: 6px;
 }

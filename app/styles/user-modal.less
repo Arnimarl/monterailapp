@@ -11,9 +11,15 @@
     .u-modal {
       position: relative;
       max-width: 900px;
+      max-height: 100vh;
+      overflow: auto;
       margin: 0 auto;
       margin-top: 15px;
       background-color: white;
+
+      @media (max-width: 768px) {
+        margin-top: 0;
+      }
 
       .close {
         position: absolute;
@@ -27,6 +33,10 @@
         margin: 0 auto;
         padding: 40px 0 40px 0;
         text-align: center;
+
+        @media (max-width: 768px) {
+          padding: 25px 10px 25px 10px;
+        }
 
         .avatar {
           &.big {
@@ -83,8 +93,10 @@
         }
 
         .same-period {
-          margin-bottom: 28px;
-
+          &.marg-btm {
+            margin-bottom: 28px;
+          }
+          
           img, span {
             margin: 0 11px 0 11px;
           }

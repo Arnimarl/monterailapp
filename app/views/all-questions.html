@@ -54,7 +54,7 @@
             </div>
             <div class="col-xs-4 col-md-2" ng-repeat="answer in getAnswers(question.answers)">
               <div class="answer">
-                <img class="img-responsive img-circle avatar" ng-src="{{answer.createdBy.avatarSrc}}">
+                <img class="img-responsive img-circle avatar" ng-src="{{answer.createdBy.avatarSrc}}" ng-click="displayUserModal(answer.createdBy)">
                 <div class="status">COMMENTED</div>
               </div>
             </div>

@@ -20,92 +20,94 @@
 .single-question .question-and-answers .header .name {
   font-size: 15px;
   font-weight: bold;
+  cursor: pointer;
 }
-/* line 24, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+/* line 25, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .header .question {
   font-size: 17px;
   font-weight: bold;
   line-height: 0;
   font-style: italic;
 }
-/* line 31, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+/* line 32, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .header .date {
   color: black;
 }
-/* line 36, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+/* line 37, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .avatar {
   width: 48px;
   height: 48px;
+  cursor: pointer;
 }
-/* line 41, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+/* line 43, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .description {
   padding-bottom: 20px;
 }
-/* line 45, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+/* line 47, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .upvotes {
   top: 25px;
   color: black;
 }
 @media (max-width: 992px) {
-  /* line 49, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+  /* line 51, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
   .single-question .question-and-answers .upvotes {
     top: 0;
   }
 }
-/* line 53, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+/* line 55, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .upvotes .up-btn {
   position: relative;
   top: -15px;
   left: 15px;
   cursor: pointer;
 }
-/* line 60, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+/* line 62, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .upvotes .down-btn {
   position: relative;
   top: 20px;
   cursor: pointer;
 }
-/* line 68, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+/* line 70, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .question .leftsidebar {
   height: 200px;
 }
 @media (max-width: 992px) {
-  /* line 71, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+  /* line 73, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
   .single-question .question-and-answers .question .leftsidebar {
     height: 80px;
     background-color: red;
   }
 }
-/* line 77, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+/* line 79, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .question .avatar {
   margin-top: 12px;
 }
-/* line 81, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+/* line 83, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .question .header {
   padding: 12px 0 20px 15px;
 }
 @media (max-width: 992px) {
-  /* line 84, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+  /* line 86, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
   .single-question .question-and-answers .question .header {
     height: 80px;
     padding: 12px 0 10px 0;
   }
 }
-/* line 90, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+/* line 92, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .question .lightblue {
   background-color: #d0efff;
 }
-/* line 94, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+/* line 96, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .question .description {
   padding-top: 10px;
 }
 @media (max-width: 992px) {
-  /* line 97, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+  /* line 99, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
   .single-question .question-and-answers .question .description {
     padding-top: 0;
   }
 }
-/* line 102, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+/* line 104, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .question .follow {
   padding-right: 90px;
   color: #3b7dbb;
@@ -113,13 +115,13 @@
   cursor: pointer;
 }
 @media (min-width: 992px) {
-  /* line 108, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+  /* line 110, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
   .single-question .question-and-answers .question .follow {
     margin-top: -10px;
   }
 }
 @media (max-width: 992px) {
-  /* line 116, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
+  /* line 118, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
   .single-question .question-and-answers .answers .header {
     padding: 0 10px 0 0;
   }
