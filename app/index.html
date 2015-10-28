@@ -45,12 +45,9 @@
 
 </head>
 
-<body ontouchstart ng-controller="MainCtrl">
+<body ontouchstart>
 
   <div class="grey-wrapper"> 
-    <div class="masthead clearfix">
-      <div class="inner" ng-include="'views/partials/header.html'"></div>
-    </div>
     <div ng-view></div>
   </div>
 
@@ -67,7 +64,6 @@
 
   <!-- build:js scripts/app.min.js -->
   <script src="scripts/app.js"></script>
-  <script src="scripts/controllers/main.js"></script>
   <script src="scripts/controllers/single-question.js"></script>
   <script src="scripts/directives/all-questions.js"></script>
   <script src="scripts/directives/user-modal.js"></script>

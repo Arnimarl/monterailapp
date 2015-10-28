@@ -9,7 +9,6 @@ angular.module('Arnimarl.Monterailapp')
       },
       replace: true,
       controller: function ($scope, $location) {
-        // wez z single-question.js!!!
         $scope.allQuestions = [
           {
             title: 'Vegan diet to stop diabetes progress',
@@ -530,24 +529,18 @@ angular.module('Arnimarl.Monterailapp')
           for (var i = 0; i < numOfQuestionsToDisp; i++) {
             questionsToDisp.push(allQuestions[i]);
             if (i === allQuestions.length - 1) {
-              console.log(numOfQuestionsToDisp);
-              console.log(questionsToDisp);
               return questionsToDisp;
             }
           }
-          console.log(numOfQuestionsToDisp);
-          console.log(questionsToDisp);
           return questionsToDisp;
         };
 
         $scope.incrementNumOfQuestionsToDisp = function () {
           $scope.numOfQuestionsToDisp = $scope.numOfQuestionsToDisp + 3;
-          console.log($scope.numOfQuestionsToDisp);
         };
 
         $scope.getNumOfMoreActivities = function (question) {
           var maxInRow = 5;
-          console.log(question.answers.length - maxInRow);
           return question.answers.length - maxInRow;
         };
 
