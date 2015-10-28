@@ -2,6 +2,25 @@
 
 .single-question {
 
+  .site-title-wrapper {
+    padding: 30px 0 15px 0;
+    background-color: white;
+
+    @media (max-width: 768px) {
+      padding: 12px 5px 15px 5px;
+      border-bottom: 1px solid rgb(233, 233, 233);
+      box-shadow: 2px 2px 2px;
+    }
+
+    .title {
+      max-width: 992px;
+      margin: 0 auto;
+      font-size: 25px;
+      font-weight: 800;
+      color: black;
+    }
+  }
+
   .question-and-answers {
     max-width: 992px;
     margin: 0 auto;
@@ -31,6 +50,7 @@
 
       .date {
         color: black;
+        font-style: italic;
       }
     }
 
@@ -47,6 +67,7 @@
     .upvotes {
       top: 25px;
       color: black;
+      font-style: italic;
 
       @media (max-width: 992px) {
         top: 0;
@@ -114,10 +135,42 @@
     }
 
     .answers {
-      .header {
-        @media (max-width: 992px) {
-          padding: 0 10px 0 0;
+      .answer {
+        padding-top: 10px;
+        border-top: 2px solid rgb(233, 233, 233);
+
+        .header {
+          @media (max-width: 992px) {
+            padding: 0 10px 0 0;
+          }
         }
+
+        .btn-comment {
+          margin: 0 0 15px 0;
+          font-weight: 700;
+          border-radius: 0;
+
+          @media (max-width: 768px) {
+            margin: 20px 0 15px 0;
+          }
+        }
+      }
+    }
+
+    .btn-new-answer {
+      margin: 20px 0 30px 0;
+      font-weight: 700;
+      border-radius: 0;
+    }
+
+    .already-answered {
+      color: black;
+      font-style: italic;
+      margin-bottom: 15px;
+
+      .num {
+        font-size: 16px;
+        font-weight: 700;
       }
     }
   }

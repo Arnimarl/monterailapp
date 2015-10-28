@@ -4,26 +4,28 @@
 .all-questions {
 
   .navigator {
+    padding: 30px 0 0 0;
     background-color: white;
     color: grey;
+
+    @media (max-width: 768px) {
+      padding: 10px 5px 0 5px;
+    }
 
     .wrapper {
       max-width: 992px;
       margin: 0 auto;
 
       .sort {
-        margin-bottom: 5px;
+        margin-bottom: 15px;
 
         .title {
           font-size: 25px;
-          font-weight: bold;
-          line-height: 0;
+          font-weight: 800;
           color: black;
         }
 
         .options {
-          margin-top: 10px;
-
           .recent-btn, .hot-btn {
             cursor: pointer;
 
@@ -94,6 +96,7 @@
 
           .title {
             font-size: 17px;
+            line-height: 0;
             font-weight: bold;
             font-style: italic;
             cursor: pointer;

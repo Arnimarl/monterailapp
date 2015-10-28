@@ -5,9 +5,7 @@
       <div class="sort">
         <span class="title">QUESTIONS</span>
         <span class="pull-right options">
-          <span>My shelf <radio/></span>
-          <span>All questions <checkbox/></span>
-          <span>Sort by
+          <span>Sort by:
             <span ng-click="sort('recent')" ng-class="{'mark': sortBy === 'recent'}" class="recent-btn">recent</span>
             or
             <span ng-click="sort('hot')" ng-class="{'mark': sortBy === 'hot'}" class="hot-btn">hot</span>
@@ -15,7 +13,7 @@
         </span>
       </div>
       <div class="row search">
-        <form class="">
+        <form>
           <div class="col-xs-12 col-md-10 form-group"> 
             <input class="form-control" ng-model="searchText" placeholder="Search in questions">
           </div>
