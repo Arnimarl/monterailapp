@@ -8137,7 +8137,7 @@ button.close {
 /* line 22, /home/arnimarl/workspace/monterailapp/app/styles/all-questions.less */
 .all-questions .navigator .wrapper .sort .title {
   font-size: 25px;
-  font-weight: 800;
+  font-weight: 700;
   color: black;
 }
 /* line 29, /home/arnimarl/workspace/monterailapp/app/styles/all-questions.less */
@@ -8322,7 +8322,7 @@ button.close {
   max-width: 992px;
   margin: 0 auto;
   font-size: 25px;
-  font-weight: 800;
+  font-weight: 700;
   color: black;
 }
 /* line 24, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
