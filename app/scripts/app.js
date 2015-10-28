@@ -9,9 +9,6 @@ angular.module('Arnimarl.Monterailapp', ['ngAnimate', 'ngRoute'])
     $locationProvider.html5Mode(false);
 
     $routeProvider
-      .when('/', {
-        templateUrl: 'views/home.html'
-      })
       .when('/questions', {
         template: '<all-questions></all-questions>'
       })
@@ -20,7 +17,7 @@ angular.module('Arnimarl.Monterailapp', ['ngAnimate', 'ngRoute'])
         templateUrl: 'views/single-question.html'
       })
       .otherwise({
-        redirectTo: '/'
+        redirectTo: '/questions'
       });
 
   });
