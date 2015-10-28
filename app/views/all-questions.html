@@ -35,7 +35,7 @@
             </div>
             <div class="col-xs-8 col-md-10 text">
               <span class="name" ng-click="displayUserModal(question.createdBy)">{{ question.createdBy.name }}</span>
-              <span class="grey">IS ASKING</span>
+              <span class="grey"> IS ASKING</span>
               <br>
               <span class="title" ng-click="goToQuestion(question)">{{ question.title }}</span>
             </div>
@@ -46,8 +46,8 @@
             </div>
             <div class="col-xs-4 col-md-2" ng-if="getNumOfMoreActivities(question) >= 1">
               <div class="more-activities">
-                <div class="number"> {{ getNumOfMoreActivities(question) }} </div>
-                <div class="text">more activities</div>
+                <div class="number fw-600"> {{ getNumOfMoreActivities(question) }} </div>
+                <div class="text italic">more activities</div>
               </div>
             </div>
             <div class="col-xs-4 col-md-2" ng-repeat="answer in getAnswers(question.answers)">

@@ -18,14 +18,14 @@
             </div>
             <p class="col-xs-9 col-md-12 header lightblue">
               <span class="name" ng-click="displayUserModal(question.createdBy)">{{ question.createdBy.name }}</span>
-              <span class="grey">IS ASKING:</span>
+              <span class="grey"> IS ASKING:</span>
               <br>
               <span class="question">{{ question.title }}</span>
               <span class="pull-right follow col-xs-off">unfollow</span>
             </p>
             <p class="col-xs-12 col-md-9 description">{{ question.description }}</p>
             <div class="col-xs-off col-md-3 text-center upvotes">
-              {{ question.votes }} upvotes 
+              <span class="fw-600">{{ question.votes }}</span> upvotes
               <span class="glyphicon glyphicon-chevron-up up-btn" ng-click="voteUp(question)"></span>
               <span class="glyphicon glyphicon-chevron-up down-btn" ng-click="voteDown(question)"></span>
             </div>
@@ -37,7 +37,7 @@
                   <span class="follow pull-left">unfollow</span>
                 </div>
                 <div class="col-xs-6 pull-right text-right">
-                  {{ question.votes }} upvotes
+                  <span class="fw-600">{{ question.votes }}</span> upvotes
                   <span class="glyphicon glyphicon-chevron-up up-btn" ng-click="voteUp(question)"></span>
                   <span class="glyphicon glyphicon-chevron-up down-btn" ng-click="voteDown(question)"></span>
                 </div>
@@ -68,21 +68,21 @@
             </div>
             <p class="col-xs-9 col-md-12 header">
               <span class="name" ng-click="displayUserModal(answer.createdBy)">{{ answer.createdBy.name }}</span> 
-              <span class="grey">COMMENTED IT</span> 
-              <span class="date">{{ answer.date }}</span>
+              <span class="grey"> COMMENTED IT</span> 
+              <span class="date"> {{ answer.date }}</span>
             </p>
             <p class="col-xs-12 description">{{ answer.description }}</p>
           </div>
           <div class="row">
             <div class="col-xs-12 col-md-off text-right upvotes">
-              {{ answer.votes }} upvotes
+              <span class="fw-600">{{ answer.votes }}</span> upvotes
               <span class="glyphicon glyphicon-chevron-up up-btn" ng-click="voteUp(answer)"></span>
               <span class="glyphicon glyphicon-chevron-up down-btn" ng-click="voteDown(answer)"></span>
             </div>
           </div>
         </div>
         <div class="col-xs-off col-md-3 text-center upvotes">
-          {{ answer.votes }} upvotes
+          <span class="fw-600">{{ answer.votes }}</span> upvotes
           <span class="glyphicon glyphicon-chevron-up up-btn" ng-click="voteUp(answer)"></span>
           <span class="glyphicon glyphicon-chevron-up down-btn" ng-click="voteDown(answer)"></span>
         </div>

@@ -8463,7 +8463,7 @@ button.close {
 /* line 148, /home/arnimarl/workspace/monterailapp/app/styles/single-question.less */
 .single-question .question-and-answers .answers .answer .btn-comment {
   margin: 0 0 15px 0;
-  font-weight: 700;
+  font-weight: 500;
   border-radius: 0;
 }
 @media (max-width: 768px) {
